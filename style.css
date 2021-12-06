@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+:root{
+    --fs-xlg: 2rem;
+    --fs-lg: 1.5rem;
+    --fs-md: 1.25rem;
+    --fs-sm: 1rem;
+    --color-main: #ffc107;
+    --color-secondary-dark: purple;
+    --color-secondary-light: #a802a8;
+    --fc-dark: black;
+    --fc-light: white;
+}
+/* typography */
+
+h1,
+h2,
+h3{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: var(--fs-xlg);
+}
+
+h2{
+    font-size: var(--fs-lg);
+}
+
+h3{
+    font-size: var(--fs-md);
+}
+
+/* layout */
+
+.cont-main{
+    margin: 0 2em;
+}
+
+/* header */
+
+section div.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-secondary-dark);
+}
+
+section.dark > .header{
+    color: var(--color-secondary-light);
+}
+
+section.whatIDo,
+section.MyWork,
+footer{
+    background-color: var(--fc-dark);
+    color: var(--fc-light);
+}
+
+.intro__title{
+    background-color: var(--color-secondary-dark);
+    color: var(--fc-light);
+}
