@@ -12,7 +12,7 @@ body{
     --fs-md: 2rem;
     --fs-sm: 1rem;
     --color-main: #ffc107;
-    --color-secondary-dark: purple;
+    --color-secondary-dark: #600460;
     --color-secondary-light: #a802a8;
     --fc-dark: black;
     --fc-light: white;
@@ -68,7 +68,7 @@ section{
 footer{
     width: 100%;
     text-align: center;
-    color: var(--color-secondary-light);
+    color: var(--color-main);
 }
 
 footer li{
@@ -109,6 +109,7 @@ h1.intro.name strong{
     margin-bottom: 1rem;
     width: 85vw;
     background-color: var(--color-secondary-dark);
+    box-shadow: 5px 6px 6px var(--color-secondary-light);
 }
 
 /* .intro .title::after{
@@ -134,12 +135,20 @@ footer{
     color: var(--fc-light);
 }
 
+section.MyWork .subtitle{
+    color: var(--color-main);
+}
+
+footer a{
+    color: var(--color-main);
+}
+
 div.MyWork--items{
     display: flex;
     flex-wrap: wrap;
 }
 
-div.MyWork--items > img{
+div.MyWork--items img{
     box-sizing: border-box;
     width: 80%;
     max-width: 600px;
