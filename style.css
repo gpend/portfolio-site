@@ -43,7 +43,7 @@ h3{
 /* layout */
 
 .cont-main{
-    padding: 1em 0;
+    padding-top: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,6 +71,7 @@ footer{
     width: 100%;
     text-align: center;
     color: var(--color-main);
+    padding-bottom: 2em;
 }
 
 footer li{
@@ -128,6 +129,7 @@ h1.intro.name strong{
 .intro img{
     width: 250px;
     box-shadow: 5px 5px 20px rgb(110, 110, 110);
+    margin-top: 1rem;
 }
 
 section.whatIDo,
@@ -156,4 +158,11 @@ div.MyWork--items img{
     max-width: 600px;
     /* object-fit: scale-down; */
     margin: 1em auto;
+}
+
+.social-list{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
 }
